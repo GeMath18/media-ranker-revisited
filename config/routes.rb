@@ -16,5 +16,5 @@ Rails.application.routes.draw do
 
   resources :users, only: [:index, :show]
 
-  post "/logout", to "users#logout", as: "logout"
+
 end
